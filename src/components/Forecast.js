@@ -60,8 +60,8 @@ class Forecast extends React.Component {
     render() {
         if (this.state.loading) {
             return (
-                <div style={{'alignSelf': 'center'}}>
-                    <img src={`/images/logo.svg`} alt="loading"/>
+                <div className="loading-container">
+                    <img className="loading-logo" src={`/images/logo.svg`} alt="loading"/>
                 </div>
             );
         } else {
