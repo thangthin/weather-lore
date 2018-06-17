@@ -59,6 +59,11 @@ body {
   align-self: center;
 }
 
+.form-main {
+  display: flex;
+  flex-direction: column;
+}
+
 .form-inputs {
   margin-bottom: 20px;
   align-self: center;
@@ -91,3 +96,38 @@ body {
   border-radius: 4px;
 }
 
+a {
+  text-decoration: none;
+}
+
+.forecast-containers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.daily-forecast {
+  margin: 20px;
+}
+
+.forecast {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.detailed-forecast {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.detailed-forecast div {
+  margin: 20px;
+  color: #6d6262;
+}
+
+.detailed-forecast div img {
+  width: 150px;
+  height: 101px;
+}
